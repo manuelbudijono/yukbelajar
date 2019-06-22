@@ -2,26 +2,37 @@
 .topnav {
   background-color: #6699ff;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
-
+.topnav a:nth-child(4) {
+  float: right;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 24px 30px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
 }
+
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #6699ff;
-  color: #6699ff;
+  background-color: #9933ff;
+  color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #6699ff;
+  background-color: #9933ff;
   color: white;
+}
+
+.main {
+  margin-top: 84px;
 }
